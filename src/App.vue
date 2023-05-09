@@ -2,6 +2,8 @@
 import Header from './components/header.vue';
 import Main from './components/main.vue';
 import Footer from './components/footer.vue';
+import {store} from './data/store';
+
 export default {
   name:'App',
   components:{
@@ -9,6 +11,7 @@ export default {
     Main,
     Footer
   },
+  
   methods:{},
   mounted(){
   }
