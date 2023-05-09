@@ -8,12 +8,21 @@ export default {
   <main>
     <div class="my_container">
       
-      <h2>main</h2>
+      <div id="jumbotron"></div>
+      <div id="foodie-journal"></div>
+      <div id="popular-recipes"></div>
+      <div id="culinary-collection"></div>
+      <div id="farm-to-table"></div>
+      <div id="cta-subscribe"></div>
       
     </div>
   </main>
 </template>
 
-<style>
+<style lang="scss" scoped>
+
+main{
+
+}
 
 </style>
