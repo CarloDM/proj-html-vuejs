@@ -1,0 +1,21 @@
+/* reset  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* --------debug */
+.debug {
+  background-color: rgba(255, 0, 0, 0.253);
+  border: 1x solid black;
+}
+
+.debug2 {
+  background-color: rgba(0, 255, 13, 0.253);
+  border: 1x solid black;
+}
+
+/* ------generals */
+body{
+  font-family: monospace;
+}
