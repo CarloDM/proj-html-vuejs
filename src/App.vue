@@ -10,11 +10,8 @@ export default {
     Footer
   },
   methods:{},
-  
   mounted(){
-
   }
-
 }
 </script>
 
