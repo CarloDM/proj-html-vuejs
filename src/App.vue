@@ -17,13 +17,14 @@ export default {
 
 <template>
 
-  <Header/>
+  <Header class="debug"/>
   <Main/>
   <Footer/>
 
 </template>
 
 
-<style>
+<style lang="scss">
+@import './scss/main.scss';
 
 </style>
