@@ -1,19 +1,33 @@
 <script>
+import Jumbotron from './partials/jumbotron.vue';
+import FoodieJournal from './partials/foodie-journal.vue';
+import PopularRecipes from './partials/popular-recipes.vue';
+import CulinaryCollection from './partials/culinary-collection.vue';
+import FarmToTable from './partials/farm-to-table.vue';
+import CtaSubscribe from './partials/cta-subscribe.vue';
 export default {
   name:'Main',
+  components: {
+    Jumbotron,
+    FoodieJournal,
+    PopularRecipes,
+    CulinaryCollection,
+    FarmToTable,
+    CtaSubscribe
+  }
 }
 </script>
 
 <template>
   <main>
-    <div class="my_container">
+    <div class="">
       
-      <div id="jumbotron"></div>
-      <div id="foodie-journal"></div>
-      <div id="popular-recipes"></div>
-      <div id="culinary-collection"></div>
-      <div id="farm-to-table"></div>
-      <div id="cta-subscribe"></div>
+      <Jumbotron          id="jumbotron"          ></Jumbotron>
+      <FoodieJournal      id="foodie-journal"     ></FoodieJournal>
+      <PopularRecipes     id="popular-recipes"    ></PopularRecipes>
+      <CulinaryCollection id="culinary-collection"></CulinaryCollection>
+      <FarmToTable        id="farm-to-table"      ></FarmToTable>
+      <CtaSubscribe       id="cta-subscribe"      ></CtaSubscribe>
       
     </div>
   </main>
