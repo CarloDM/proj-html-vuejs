@@ -23,7 +23,7 @@ export default {
 
     <Header class="debug"/>
     <Main/>
-    <Footer/>
+    <Footer class="debug"/>
 
   </div>
 </template>
