@@ -9,14 +9,13 @@ export default {
 </script>
 
 <template>
-  <footer>
+  <footer class="">
     <div class="my_container">
 
       <FooterTop class="top debug"></FooterTop>
-      
-      <div class="bottom debug"></div>
-
+          
     </div>
+    <div class="bottom debug"></div>
   </footer>
 </template>
 

@@ -17,11 +17,10 @@ export default {
         <button>SUBSCRIBE</button>
 
         <p>Lorem ipsum dolor sit amet.</p>
+
       </div>
-    </div>
-
-    <div class="foto_container"></div>
-
+    </div>  
+    <div class="foto_container debug2"></div>
   </div>
 </template>
 
@@ -38,6 +37,11 @@ export default {
       width: 90%;
       margin: 40px auto;
     }
+  }
+
+  .foto_container{
+    width: 100%;
+    min-height: 80px;
   }
 }
 
