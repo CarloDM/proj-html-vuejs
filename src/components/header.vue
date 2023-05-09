@@ -5,9 +5,15 @@ export default {
 </script>
 
 <template>
-  <h2>header</h2>
+  <header>
+    <div class="my_container debug">
+
+      <h2>header</h2>
+
+    </div>
+  </header>
 </template>
 
-<style>
+<style lang="scss" scoped>
 
 </style>

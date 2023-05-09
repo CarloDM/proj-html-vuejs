@@ -9,3 +9,14 @@
 body{
   font-family: monospace;
 }
+
+#main_wrapper{
+  width: 100%;
+}
+
+.my_container{
+  width: 70%;
+  max-width: 1200px;
+  min-height: 40px;
+  margin: 0 auto;
+}

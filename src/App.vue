@@ -11,7 +11,7 @@ export default {
     Main,
     Footer
   },
-  
+
   methods:{},
   mounted(){
   }
@@ -19,15 +19,17 @@ export default {
 </script>
 
 <template>
+  <div id="main_wrapper">
 
-  <Header class="debug"/>
-  <Main/>
-  <Footer/>
+    <Header class="debug"/>
+    <Main/>
+    <Footer/>
 
+  </div>
 </template>
 
 
-<style lang="scss">
+<style lang="scss" >
 @import './scss/main.scss';
 
 </style>

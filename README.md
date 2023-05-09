@@ -9,3 +9,4 @@ layout & principle components:
 2. main
 3. footer
 ------------------------------
+step 1: layout macroaree

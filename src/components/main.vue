@@ -5,7 +5,13 @@ export default {
 </script>
 
 <template>
-  <h2>main</h2>
+  <main>
+    <div class="my_container">
+      
+      <h2>main</h2>
+      
+    </div>
+  </main>
 </template>
 
 <style>
