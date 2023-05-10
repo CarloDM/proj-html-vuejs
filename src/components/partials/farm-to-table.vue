@@ -17,7 +17,10 @@ export default {
   <div class="my_container debug">
 
     <div class="title">
-      <div class="button debug">button</div>
+      <div class="button debug">
+        READ
+        <i class="fa-solid fa-book-open-reader"></i>
+      </div>
       <h3>FARM TO TABLE</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum ab reiciendis provident perspiciatis aliquid!</p>
     </div>

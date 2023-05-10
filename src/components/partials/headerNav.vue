@@ -14,7 +14,7 @@ export default {
       <li>Places</li>
       <li>Blog</li>
       <li>About</li>
-      <li>ic</li>
+      <li><i class="fa-solid fa-magnifying-glass"></i></li>
     </ul>
 
   </div> 

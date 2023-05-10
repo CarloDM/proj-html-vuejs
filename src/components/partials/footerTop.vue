@@ -9,11 +9,12 @@ export default {
     
     <div class="col debug">
       <div class="logo debug"></div>
+
       <ul class="social">
-        <li> <a href="#">ic</a> </li>
-        <li> <a href="#">ic</a> </li>
-        <li> <a href="#">ic</a> </li>
-        <li> <a href="#">ic</a> </li>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+        <a href="#"><i class="fa-brands fa-instagram"></i>  </a>
+        <a href="#"><i class="fa-brands fa-twitter"></i>    </a>
+        <a href="#"><i class="fa-brands fa-youtube"></i>    </a>
       </ul>
     </div>
 
@@ -26,9 +27,9 @@ export default {
     <div class="col debug">
       <h4>contact</h4>
       <ul>
-        <li>ic addres</li>
-        <li>ic telephone</li>
-        <li>ic email</li>
+        <li><i class="fa-solid fa-location-dot"></i> addres</li>
+        <li><i class="fa-solid fa-phone-flip"></i> telephone</li>
+        <li><i class="fa-solid fa-envelope"></i> email</li>
       </ul>
     </div>
 

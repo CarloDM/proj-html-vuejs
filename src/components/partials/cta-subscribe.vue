@@ -10,7 +10,7 @@ export default {
     <div class="my_container debug">
 
       <div class="container">
-        <h2>Subscribe</h2>
+        <h2>Subscribe & receive</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quasi eveniet odit sunt.</p>
 
         <input type="text">

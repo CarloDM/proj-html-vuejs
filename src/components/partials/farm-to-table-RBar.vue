@@ -18,7 +18,10 @@ export default {
       <div class="guide debug">
         <span class="debug2">city guide: Singapore</span>
         <img src="../../assets/img/avada/singapore-featured-image-1200x790.jpg" alt="">
-        <a href="#">view all city guides</a>
+        <a href="#">
+          <i class="fa-solid fa-earth-americas"></i>
+          view all city guides
+        </a>
       </div>
 
     </section>
@@ -29,11 +32,11 @@ export default {
 
       <div class="follow-us debug2">
         <h4>follow us</h4>
-        <a href="#">ic</a>
-        <a href="#">ic</a>
-        <a href="#">ic</a>
-        <a href="#">ic</a>
-        <a href="#">ic</a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+        <a href="#"><i class="fa-brands fa-instagram"></i>  </a>
+        <a href="#"><i class="fa-brands fa-twitter"></i>    </a>
+        <a href="#"><i class="fa-brands fa-youtube"></i>    </a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
       </div>
 
       <div class="select flex_center debug2">
