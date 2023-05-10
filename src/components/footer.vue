@@ -15,18 +15,20 @@ export default {
       <FooterTop class="top"></FooterTop>    
     </div>
 
-    <div class="bottom debug"></div>
+    <div class="bottom flex_center debug">
+      <p>copyright 2012, Lorem ipsum dolor sit amet.</p>
+    </div>
   </footer>
 </template>
 
 <style lang="scss" scoped>
 footer{
   width: 100%;
-  height: 180px;
+  height: 250px;
 
   .top{
     width: 100%;
-    height: calc(100% - 40px);
+    height: 100%;
   }
 
   .bottom{
