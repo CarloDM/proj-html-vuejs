@@ -1,7 +1,10 @@
 <script>
+import CardArticle from '../singleComponents/cardArticleBig.vue';
 export default {
   name:'popularRecipes',
-  
+  components:{
+    CardArticle,
+  }
 }
 </script>
 
@@ -15,7 +18,10 @@ export default {
       </div>
 
       <div class="container">
-        <div class="col debug2"></div>
+        <div class="col debug2">
+          <CardArticle/>
+        </div>
+
         <div class="col debug2"></div>
       </div>
 

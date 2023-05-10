@@ -1,7 +1,10 @@
 <script>
+import CardArticle from '../singleComponents/cardArticleBig.vue';
 export default {
   name:'farm to table',
-  
+  components:{
+    CardArticle,
+  }
 }
 </script>
 
@@ -16,7 +19,9 @@ export default {
     </div>
 
     <div class="container">
-      <div class="col big debug2"></div>
+      <div class="col big debug2">
+        <CardArticle />
+      </div>
       <div class="col small debug2"></div>
     </div>
 
