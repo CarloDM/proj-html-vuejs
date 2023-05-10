@@ -1,11 +1,13 @@
 <script>
 import headerTop from './partials/headerTop.vue';
 import headerNav from './partials/headerNav.vue';
+import Logo from './singleComponents/logo.vue';
 export default {
   name:'Header',
   components:{
     headerTop,
     headerNav,
+    Logo,
   }
 }
 </script>
@@ -16,7 +18,7 @@ export default {
 
       <headerTop class="debug"/>
 
-      <div class="logo debug"></div>
+      <div class="logo debug"><Logo/></div>
 
       <headerNav class="debug"/>
 
@@ -30,8 +32,8 @@ header{
   // height: 100px;
 
   .logo{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 80px;
     margin: 5px auto;
   }
 }

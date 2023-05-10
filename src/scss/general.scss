@@ -10,6 +10,14 @@ body{
   font-family: monospace;
 }
 
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
 #main_wrapper{
   width: 100%;
 }
@@ -25,5 +33,10 @@ body{
 .flex_center {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.flex_between {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
