@@ -1,6 +1,10 @@
 <script>
+import Photo from '../singleComponents/photo.vue';
 export default {
   name:'culinary collection',
+  components:{
+    Photo,
+  }
   
 }
 </script>
@@ -14,8 +18,9 @@ export default {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum ab reiciendis provident perspiciatis aliquid!</p>
       </div>
 
-      <div class="container">
-
+      <div class="collection">
+        <Photo class="photo"
+        v-for="photo in 8" />
       </div>
 
 
@@ -34,11 +39,17 @@ export default {
       text-align: center;
     }
 
-    .container{
+    .collection{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       width: 100%;
 
+      .photo{
+        width: calc(90% / 4);
+        margin: 0px 5px 10px 5px;
+        box-shadow: 0px 0px 10px rgb(121, 121, 121);
+      }
     }
   }
 

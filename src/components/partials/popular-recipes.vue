@@ -1,9 +1,11 @@
 <script>
 import CardArticle from '../singleComponents/cardArticleBig.vue';
+import Photo from '../singleComponents/photo.vue';
 export default {
   name:'popularRecipes',
   components:{
     CardArticle,
+    Photo,
   }
 }
 </script>
@@ -22,7 +24,10 @@ export default {
           <CardArticle/>
         </div>
 
-        <div class="col debug2"></div>
+        <div class="col photos debug2">
+          <Photo v-for="phot in 8"
+           class="photo"/>
+        </div>
       </div>
 
 
@@ -48,6 +53,16 @@ export default {
       .col{
         width: 48%;
         min-height: 40px;
+
+        &.photos{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .photo{
+            width: 50%;
+            padding: 5px;
+          }
+        }
       }
     }
   }

@@ -1,11 +1,13 @@
 <script>
 import CardArticle from '../singleComponents/cardArticleBig.vue';
 import Card from '../singleComponents/cardArticle.vue';
+import RBAr from '../partials/farm-to-table-RBar.vue';
 export default {
   name:'farm to table',
   components:{
     CardArticle,
     Card,
+    RBAr,
   }
 }
 </script>
@@ -28,9 +30,13 @@ export default {
           <Card v-for="art in 6"
           class="card"
           />
+          <button>LOAD MORE POST</button>
         </div>
       </div>
-      <div class="col small debug2"></div>
+
+      <div class="col small debug2">
+        <RBAr/>
+      </div>
     </div>
 
 
@@ -64,10 +70,10 @@ export default {
     .col{
       min-height: 40px;
       &.big{
-        width: 64%;
+        width: 68%;
       }
       &.small{
-        width: 32%;
+        width: 28%;
       }
       .container{
         flex-wrap: wrap;
@@ -76,6 +82,9 @@ export default {
         .card{
           width: calc(50% - 10px);
           min-height: 40px;
+        }
+        button{
+          width: 100%;
         }
       }
     }
