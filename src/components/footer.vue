@@ -12,9 +12,9 @@ export default {
   <footer class="">
     <div class="my_container">
 
-      <FooterTop class="top debug"></FooterTop>
-          
+      <FooterTop class="top"></FooterTop>    
     </div>
+
     <div class="bottom debug"></div>
   </footer>
 </template>
