@@ -29,7 +29,7 @@ export default {
 <style lang="scss" scoped>
 
 header{
-  // height: 100px;
+  font-family: 'Nunito';
 
   .logo{
     width: 100px;

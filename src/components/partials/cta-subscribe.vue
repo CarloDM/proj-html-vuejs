@@ -30,12 +30,17 @@ export default {
 .cta_subscribe{
   background-image: url(../../assets/img/subscribe-sec-bg.png);
   background-size: cover;
+  font-family: 'Nunito';
   .my_container{
 
     .container{
       text-align: center;
       width: 90%;
       margin: 40px auto;
+
+      h2{
+        font-family: 'Domine';
+      }
     }
   }
 

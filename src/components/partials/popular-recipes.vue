@@ -43,6 +43,7 @@ export default {
   .my_container{
 
     .title{
+      font-family: 'Nunito';
       text-align: center;
     }
 

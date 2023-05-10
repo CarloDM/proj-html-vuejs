@@ -23,6 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 footer{
+  font-family: 'Nunito';
   width: 100%;
   height: 250px;
 

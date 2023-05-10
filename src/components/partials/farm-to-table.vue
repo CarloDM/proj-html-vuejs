@@ -53,6 +53,7 @@ export default {
 
   .title{
     position: relative;
+    font-family: 'Nunito';
     
     .button{
       position: absolute;

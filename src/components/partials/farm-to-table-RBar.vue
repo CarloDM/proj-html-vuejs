@@ -82,6 +82,7 @@ export default {
 .r-bar{
   width: 100%;
   text-align: center;
+  font-family: 'Nunito';
   .top, .bottom{
     width: 100%;
     min-height: 40px;
@@ -141,7 +142,7 @@ export default {
         width: 100%;
         height: 40px;
         .logo{
-          width: 20%;
+          width: 40px;
           aspect-ratio: 1/1;
           border:1px solid black;
           border-radius: 50%;

@@ -36,6 +36,10 @@ export default {
     margin-top: -40px;
     padding: 0px 20px;
     background-color: white;
+
+    h3{
+      font-family: 'Nunito';
+    }
   }
 }
 </style>

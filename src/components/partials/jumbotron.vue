@@ -47,6 +47,7 @@ export default {
         text-align: center;
 
         .top{
+          font-family: 'Nunito';
           display: inline-block;
           position: absolute;
           top: -9px;
