@@ -1,9 +1,11 @@
 <script>
 import CardArticle from '../singleComponents/cardArticleBig.vue';
+import Card from '../singleComponents/cardArticle.vue';
 export default {
   name:'farm to table',
   components:{
     CardArticle,
+    Card,
   }
 }
 </script>
@@ -21,6 +23,12 @@ export default {
     <div class="container">
       <div class="col big debug2">
         <CardArticle />
+
+        <div class="container ">
+          <Card v-for="art in 6"
+          class="card"
+          />
+        </div>
       </div>
       <div class="col small debug2"></div>
     </div>
@@ -56,10 +64,19 @@ export default {
     .col{
       min-height: 40px;
       &.big{
-        width: 58%;
+        width: 64%;
       }
       &.small{
-        width: 38%;
+        width: 32%;
+      }
+      .container{
+        flex-wrap: wrap;
+        width: 100%;
+
+        .card{
+          width: calc(50% - 10px);
+          min-height: 40px;
+        }
       }
     }
   }

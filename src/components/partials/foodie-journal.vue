@@ -35,6 +35,7 @@ export default {
   .my_container{
     margin-top: -40px;
     padding: 0px 20px;
+    background-color: white;
   }
 }
 </style>

@@ -25,8 +25,9 @@ export default {
 
 <style lang="scss" scoped>
 .card-article{
-  width: 220px;
-  height: 200px;
+  // width: 220px;
+  // width: 100%;
+  // height: 200px;
 
   img{
     width: 100%;
