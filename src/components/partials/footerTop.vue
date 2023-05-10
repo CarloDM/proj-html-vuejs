@@ -8,7 +8,9 @@ export default {
   <div id="footer-top" class="debug2">
     
     <div class="col debug">
-      <div class="logo debug"></div>
+      <div class="logo debug">
+        <img src="../../assets/img/avada/avada-food-logo-mob-2x.png" alt="">
+      </div>
 
       <ul class="social">
         <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
@@ -59,6 +61,10 @@ export default {
     .logo{
       width: 100%;
       min-height: 80px;
+
+      img{
+        width: 100%;
+      }
     }
     .social{
       width: 80%;
