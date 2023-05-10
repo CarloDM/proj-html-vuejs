@@ -14,10 +14,10 @@ export default {
 
 <template>
   <div class="farm_to_table">
-  <div class="my_container debug">
+  <div class="my_container ">
 
     <div class="title">
-      <div class="button flex_center debug">
+      <div class="button flex_center ">
         <span>READ </span>
         <i class="fa-solid fa-book-open-reader"></i>
       </div>
@@ -26,7 +26,7 @@ export default {
     </div>
 
     <div class="container">
-      <div class="col big debug2">
+      <div class="col big">
         <CardArticle class="card-article"
 
         :paragraph="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos non expedita minima fugiat culpa, eveniet consequuntur quod natus voluptatibus enim porro ab repellendus aspernatur, .'"/>
@@ -41,7 +41,7 @@ export default {
         </div>
       </div>
 
-      <div class="col small debug2">
+      <div class="col small ">
         <RBAr/>
       </div>
     </div>

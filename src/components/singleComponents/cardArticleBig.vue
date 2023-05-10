@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div class="card-article debug2">
+  <div class="card-article ">
 
     <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
 

@@ -53,3 +53,30 @@ h3{
   justify-content: space-between;
   align-items: center;
 }
+
+.bg_primary{
+  background-color: $bg_light_grey;
+}
+.bg_white{
+  background-color: $white;
+}
+.bg_avada{
+  background-color: $avada_orange;
+}
+.bg_light{
+  background-color: $bg_light_grey2
+}
+.bg_mid{
+  background-color: $grey_mid
+}
+.bg_grey{
+  background-color: $grey
+}
+
+.bg_subscribe{
+  background-image: url(/src/assets/img/avada/subscribe-sec-bg.png);
+  background-size: cover;
+}
+.clr_black{
+  color: $black;
+}

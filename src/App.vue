@@ -19,14 +19,14 @@ export default {
 </script>
 
 <template>
-  <div id="main_wrapper">
+  <div id="main_wrapper" class="bg_primary clr_black">
     <!-- reference -->
     <!-- <img class="reference" src="./assets/screenshot.png" alt=""> -->
 <!-- ---------------------- -->
 
-    <Header class="debug"/>
-    <Main/>
-    <Footer class="debug"/>
+    <Header class=""/>
+    <Main class=""/>
+    <Footer class=""/>
 
   </div>
 </template>

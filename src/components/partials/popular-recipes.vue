@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div class="popular_recipes">
-    <div class="my_container debug">
+    <div class="my_container">
 
       <div class="title">
         <h3>POPULAR RECIPES</h3>
