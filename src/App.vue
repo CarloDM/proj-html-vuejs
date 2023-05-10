@@ -20,9 +20,10 @@ export default {
 
 <template>
   <div id="main_wrapper">
+    <!-- reference -->
+    <!-- <img class="reference" src="./assets/screenshot.png" alt=""> -->
+<!-- ---------------------- -->
 
-    
-    <img class="reference" src="./assets/screenshot.png" alt="">
     <Header class="debug"/>
     <Main/>
     <Footer class="debug"/>
@@ -38,6 +39,7 @@ export default {
   // tenere browser a w 1131
   width: 100%;
   position: absolute;
-  opacity: 0.20;
+  opacity: 0.40;
 }
+
 </style>

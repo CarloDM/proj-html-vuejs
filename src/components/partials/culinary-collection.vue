@@ -38,6 +38,15 @@ export default {
     .title{
       font-family: 'Nunito';
       text-align: center;
+
+      h3{
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 0.65rem;
+        width: 50%;
+        margin: 0px auto 40px ;
+      }
     }
 
     .collection{
@@ -47,7 +56,7 @@ export default {
       width: 100%;
 
       .photo{
-        width: calc(90% / 4);
+        width: calc(85% / 4);
         margin: 0px 5px 10px 5px;
         box-shadow: 0px 0px 10px rgb(121, 121, 121);
       }

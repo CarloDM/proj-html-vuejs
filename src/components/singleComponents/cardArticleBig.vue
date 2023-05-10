@@ -24,7 +24,7 @@ export default {
     </div>
 
     <div class="paragraph debug">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos non expedita minima fugiat culpa, eveniet consequuntur quod natus voluptatibus enim porro ab repellendus aspernatur, sapiente dolore! Suscipit unde quod voluptas.</p>
+      <p>{{ paragraph }}</p>
     </div>
 
     <div class="more">
@@ -47,12 +47,16 @@ export default {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 2px auto;
+    margin: 18px auto;
     font-size: 0.6rem;
+
+    h3{
+      margin-bottom: 8px;
+    }
     &:after{
       content: '';
       width: 100%;
-      margin: 5px 0px;
+      margin: 4px 0px;
       border-top: 1px solid black;
     }
   }
@@ -60,8 +64,23 @@ export default {
     width: 90%;
     margin: 0 auto;
   }
+  .paragraph{
+    font-size: 0.65rem;
+    line-height: 1.1rem;
+    margin-bottom: 9px;
+  }
   .more{
+    width: 85px;
+    padding: 8px 10px;
+    margin-left: 18px;
     margin-bottom: 10px;
+    font-size: 0.50rem;
+    font-weight: 900;
+    border: 1px solid black;
+
+    a{
+      color: white;
+    }
   }
 }
 

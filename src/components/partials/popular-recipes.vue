@@ -21,7 +21,8 @@ export default {
 
       <div class="container">
         <div class="col debug2">
-          <CardArticle/>
+          <CardArticle
+          :paragraph="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos non expedita minima fugiat culpa, eveniet consequuntur quod natus voluptatibus enim porro ab repellendus aspernatur, sapiente dolore! Suscipit unde quod voluptas. Suscipit unde quod voluptas. Suscipit unde quod voluptas.'"/>
         </div>
 
         <div class="col photos debug2">
@@ -45,6 +46,17 @@ export default {
     .title{
       font-family: 'Nunito';
       text-align: center;
+      margin-bottom: 36px;
+
+      h3{
+        margin-bottom: 12px;
+      }
+      p{
+        font-size: 0.65rem;
+        width: 50%;
+        margin: 0px auto;
+        line-height: 1.2rem;
+      }
     }
 
     .container{

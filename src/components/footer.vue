@@ -25,7 +25,7 @@ export default {
 footer{
   font-family: 'Nunito';
   width: 100%;
-  height: 250px;
+  height: 238px;
 
   .top{
     width: 100%;
@@ -35,6 +35,7 @@ footer{
   .bottom{
     width: 100%;
     height: 40px;
+    font-size: 0.65rem;
   }
 }
 

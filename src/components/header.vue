@@ -32,9 +32,9 @@ header{
   font-family: 'Nunito';
 
   .logo{
-    width: 100px;
-    height: 80px;
-    margin: 5px auto;
+    width: 90px;
+    aspect-ratio: 1.25/1;
+    margin: 0px auto 11px auto;
   }
 }
 </style>

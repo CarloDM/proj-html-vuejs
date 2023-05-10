@@ -29,6 +29,7 @@ export default {
 #header-top{
   width: 100%;
   height: 30px;
+  font-size: 0.6rem;
 
   a{
     margin: 0 5px;

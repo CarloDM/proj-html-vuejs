@@ -36,7 +36,18 @@ export default {
 <style lang="scss" scoped>
 
 main{
-
+#foodie-journal{
+  margin-bottom: 71px;
+}
+#popular-recipes{
+  margin-bottom: 119px;
+}
+#culinary-collection{
+  margin-bottom: 112px;
+}
+#farm-to-table{
+  margin-bottom: 75px;
+}
 }
 
 </style>

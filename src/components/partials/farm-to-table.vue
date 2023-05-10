@@ -17,8 +17,8 @@ export default {
   <div class="my_container debug">
 
     <div class="title">
-      <div class="button debug">
-        READ
+      <div class="button flex_center debug">
+        <span>READ </span>
         <i class="fa-solid fa-book-open-reader"></i>
       </div>
       <h3>FARM TO TABLE</h3>
@@ -27,11 +27,15 @@ export default {
 
     <div class="container">
       <div class="col big debug2">
-        <CardArticle />
+        <CardArticle class="card-article"
+
+        :paragraph="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos non expedita minima fugiat culpa, eveniet consequuntur quod natus voluptatibus enim porro ab repellendus aspernatur, .'"/>
 
         <div class="container ">
           <Card v-for="art in 6"
           class="card"
+          :title="'test title test title test titletest title'"
+          :author="'pinco pallino'"
           />
           <button>LOAD MORE POST</button>
         </div>
@@ -57,12 +61,26 @@ export default {
   .title{
     position: relative;
     font-family: 'Nunito';
-    
     .button{
       position: absolute;
       right: 0px;
-      width: 80px;
-      height: 20px;
+      width: 110px;
+      height: 25px;
+      font-size: 0.55rem;
+      padding: 8px;
+      color: white;
+
+      span{
+        margin-right: 5px;
+      }
+    }
+    h3{
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: 0.65rem;
+      margin-bottom: 42px;
+      width: 50%;
     }
   }
 
@@ -74,10 +92,13 @@ export default {
     .col{
       min-height: 40px;
       &.big{
-        width: 68%;
+        width: 64%;
+        .card-article{
+          margin-bottom: 30px;
+        }
       }
       &.small{
-        width: 28%;
+        width: 31%;
       }
       .container{
         flex-wrap: wrap;
@@ -86,9 +107,12 @@ export default {
         .card{
           width: calc(50% - 10px);
           min-height: 40px;
+          text-align: center;
         }
         button{
           width: 100%;
+          margin-top: 7px;
+          font-size: 0.65rem;
         }
       }
     }

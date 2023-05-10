@@ -8,25 +8,27 @@ export default {
   <div id="footer-top" class="debug2">
     
     <div class="col debug">
+
       <div class="logo debug">
         <img src="../../assets/img/avada/avada-food-logo-mob-2x.png" alt="">
       </div>
 
-      <ul class="social">
+      <div class="social">
         <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
         <a href="#"><i class="fa-brands fa-instagram"></i>  </a>
         <a href="#"><i class="fa-brands fa-twitter"></i>    </a>
         <a href="#"><i class="fa-brands fa-youtube"></i>    </a>
-      </ul>
+      </div>
+      
     </div>
 
-    <div class="col debug">
+    <div class="col info debug">
       <ul>
         <li v-for="link in 5"><a href="#">Recipes</a></li>
       </ul>
     </div>
 
-    <div class="col debug">
+    <div class="col contact debug">
       <h4>contact</h4>
       <ul>
         <li><i class="fa-solid fa-location-dot"></i> addres</li>
@@ -35,9 +37,9 @@ export default {
       </ul>
     </div>
 
-    <div class="col debug">
+    <div class="col get-our-app debug">
       <h4>get our app!</h4>
-      <a href="#">
+      <a class="debug" href="#">
         <img src="../../assets/img/download-android.png" alt="">
       </a>
       <a href="#">
@@ -55,11 +57,12 @@ export default {
   padding: 30px 0px;
   .col{
     width: calc(100% / 4);
-    height: 100%;
-    padding: 0 15px;
+    // height: 100%;
+    // padding: 0 15px;
 
     .logo{
-      width: 100%;
+      margin-top: 6px;
+      width: 85%;
       min-height: 80px;
 
       img{
@@ -68,27 +71,54 @@ export default {
     }
     .social{
       width: 80%;
-      display:flex;
-      justify-content: space-around;
       margin-top: 10px;
-    }
-    ul{
 
-      li{
-        margin-bottom: 10px;
+      a{
+        margin: 0px 5px;
+      }
+    }
+    &.info{
+      padding-top: 19px;
+    }
+    &.contact, &.get-our-app{
+      h4{
+        padding: 2px 20px;
       }
     }
 
+    &.contact{
+      
     h4{
         margin-bottom: 20px;
       }
-    a{
+    }
+    &.get-our-app{
+      h4{
+        margin-bottom: 12px;
+      }
+      a{
+        display: block;
+        position: relative;
+        left: 25px;
+        width: 80%;
+        height: 45px;
+        margin-bottom: 15px;
 
-      img{
-        width: 100%;
-        margin-bottom: 10px;
+        img{
+          width: 100%;
+        }
       }
     }
+
+    ul{
+      margin-left: 24px;
+      font-size: 0.65rem;
+
+      li{
+        margin-bottom: 13px;
+      }
+    }
+
   }
 }
 

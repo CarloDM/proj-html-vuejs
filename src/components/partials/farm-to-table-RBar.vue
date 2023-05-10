@@ -12,13 +12,13 @@ export default {
     <section class="top ">
 
       <div class="view flex_center debug">
-        <h1>view our latest recipes</h1>
+        <h2>view our latest recipes</h2>
       </div>
 
       <div class="guide debug">
         <span class="debug2">city guide: Singapore</span>
         <img src="../../assets/img/avada/singapore-featured-image-1200x790.jpg" alt="">
-        <a href="#">
+        <a class="debug" href="#">
           <i class="fa-solid fa-earth-americas"></i>
           view all city guides
         </a>
@@ -46,10 +46,10 @@ export default {
 
       <div class="posts">
 
-        <div class="post flex_center">
+        <div class="post flex_center debug">
           <div class="logo"></div>
           <div class="title">
-            <h5>title</h5>
+            <h5>veray long title tile tile tile vary long title</h5>
             <span>date</span>
           </div>
         </div>
@@ -93,31 +93,47 @@ export default {
   .top{
     .view{
       width: 100%;
-      aspect-ratio: 1/1.319;
+      height: 245px;
+      // aspect-ratio: 1/1.319;
       background-image: url(../../assets/img/avada/ad-bg.jpg);
+      background-position: center;
       background-size: cover;
       padding: 27% 22%;
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
+
+      h2{
+        font-size: 1.1rem;
+        padding: 5px;
+        line-height: 1.2rem;
+      }
     }
     .guide{
       position: relative;
       width: 100%;
+      // height: 200px;
       text-align: center;
-
+      display: flex;
+      flex-direction: column;
       img{
         width: 100%;
       }
       span{
         position: absolute;
         bottom: 30%;
+        color: white;
+        font-size: 1rem;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.623);
       }
       a{
         display: inline-block;
+        font-size: 0.65rem;
+        width: 100%;
         padding: 5px;
+
       }
     }
-
     &:after{
       content: '';
       display: inline-block;
@@ -128,24 +144,42 @@ export default {
   .bottom{
     text-align: left;
     .search-bar{
+      margin-top: 30px;
       width: 100%;
+      height: 30px;
     }
-    .follow-us{}
+    .follow-us{
+      margin-top: 25px;
+      margin-bottom: 24px;
+      height: 60px;
+      padding: 1px 3px;
+      h4{
+        font-size: 0.8rem;
+        margin-bottom: 12px;
+      }
+      a{
+        margin-right: 20px;
+      }
+    }
     .select{
       span{
         display: inline-block;
         text-align: center;
         width: 50%;
-        border: 1px solid black;
+        font-size: 0.65rem;
+        padding: 8px 0px;
+        margin-bottom: 30px;
       }
     }
     .posts{
       width: 100%;
+      margin-bottom: 30px;
       .post{
         width: 100%;
         height: 40px;
+        margin-bottom: 14px;
         .logo{
-          width: 40px;
+          width: 30px;
           aspect-ratio: 1/1;
           border:1px solid black;
           border-radius: 50%;
@@ -157,6 +191,7 @@ export default {
           width: 80%;
           height: 100%;
           margin-left: 5px;
+          font-size: 0.75rem;
         }
       }
     }

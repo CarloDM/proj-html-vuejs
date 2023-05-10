@@ -14,6 +14,7 @@ export default {
       <li>Places</li>
       <li>Blog</li>
       <li>About</li>
+      <li>Contact</li>
       <li><i class="fa-solid fa-magnifying-glass"></i></li>
     </ul>
 
@@ -26,6 +27,8 @@ export default {
 #header-nav{
   width: 100%;
   height: 30px;
+  margin-bottom: 6px;
+  font-size: 0.6rem;
 
   ul{
     width: 60%;

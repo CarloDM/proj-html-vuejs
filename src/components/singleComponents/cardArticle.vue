@@ -37,6 +37,13 @@ export default {
     width: 80%;
     margin: 2px auto;
     font-size: 0.6rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    h3{
+      margin-bottom: 7px;
+      line-height: 1rem;
+    }
   }
 }
 
