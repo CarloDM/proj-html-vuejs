@@ -21,7 +21,7 @@ export default {
   <div class="card-article ">
 
     <!-- <img :src=img alt=""> -->
-    <Photo class="photo" :imgUrl=img />
+    <Photo class="photo" :imgUrl=img :title=title />
     <div class="title">
 
         <h3>{{ title }}</h3>

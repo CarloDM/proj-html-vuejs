@@ -18,7 +18,7 @@ export default {
   <div class="card-article">
 
     <!-- <img :src=img alt=""> -->
-    <Photo class="photo" :imgUrl=img />
+    <Photo class="photo" :imgUrl=img :title=title />
 
     <a href="#" class="title flex_center clr_black ">
         <h3>{{title}}</h3>

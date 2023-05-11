@@ -9,12 +9,12 @@ export default {
 </script>
 
 <template>
-  <div class="photo flex_center hover_photo">
+  <div class="photo flex_center">
 
     <img :src=imgUrl alt="">
 
     <p class="link"><a class="clr_white" href="#">link</a></p>
-    <p class="title">{{title}}</p>
+    <p class="title clr_white">{{title}}</p>
   </div>
 </template>
 
@@ -36,6 +36,9 @@ export default {
     opacity: 0;
   }
   .title{
+    text-align: center;
+    font-size: 0.6rem;
+    max-width: 200px;
     transform: translateY(100%);
   }
 
