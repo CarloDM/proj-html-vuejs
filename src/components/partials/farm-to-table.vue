@@ -23,7 +23,7 @@ export default {
   <div class="my_container ">
 
     <div class="title">
-      <div class="button flex_center ">
+      <div class="button flex_center bg_avada">
         <span>READ </span>
         <i class="fa-solid fa-book-open-reader"></i>
       </div>
