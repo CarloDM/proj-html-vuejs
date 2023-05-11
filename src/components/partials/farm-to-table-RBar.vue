@@ -138,7 +138,7 @@ export default {
       content: '';
       display: inline-block;
       width: 100%;
-      border: 1px solid rgb(228, 10, 10);
+      border: 1px solid rgb(218, 218, 218);
     }
   }
   .bottom{

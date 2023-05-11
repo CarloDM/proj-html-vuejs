@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <div id="main_wrapper">
+  <div id="main_wrapper" class="bg_primary">
     <!-- reference -->
     <!-- <img class="reference" src="./assets/screenshot.png" alt=""> -->
 <!-- ---------------------- -->

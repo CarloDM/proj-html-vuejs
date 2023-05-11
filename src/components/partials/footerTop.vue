@@ -29,7 +29,7 @@ export default {
     </div>
 
     <div class="col contact ">
-      <h4>contact</h4>
+      <h4 class="clr_avada">contact</h4>
       <ul>
         <li><i class="fa-solid fa-location-dot"></i> addres</li>
         <li><i class="fa-solid fa-phone-flip"></i> telephone</li>
@@ -38,7 +38,7 @@ export default {
     </div>
 
     <div class="col get-our-app ">
-      <h4>get our app!</h4>
+      <h4 class="clr_avada">get our app!</h4>
       <a class="" href="#">
         <img src="../../assets/img/download-android.png" alt="">
       </a>

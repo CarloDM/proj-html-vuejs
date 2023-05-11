@@ -35,12 +35,12 @@ export default {
       <div class="col big ">
 
         <CardArticle class="card-article"
-          :title=    'store.articles[1].title'
-          :author=   'store.articles[1].author'
-          :date=     'store.articles[1].date'
-          :img=      'store.articles[1].imgUrl'
-          :paragraph="store.articles[1].paragraph"
-          :answers=  "store.articles[1].answers.length"
+          :title=    'store.articles[0].title'
+          :author=   'store.articles[0].author'
+          :date=     'store.articles[0].date'
+          :img=      'store.articles[0].imgUrl'
+          :paragraph="store.articles[0].paragraph"
+          :answers=  "store.articles[0].answers.length"
           :type="1"
           />
 

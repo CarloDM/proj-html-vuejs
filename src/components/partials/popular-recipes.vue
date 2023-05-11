@@ -86,8 +86,8 @@ export default {
           justify-content: space-between;
           flex-wrap: wrap;
           .photo{
-            width: 50%;
-            padding: 5px;
+            width: 48%;
+            margin: 2px;
           }
         }
       }

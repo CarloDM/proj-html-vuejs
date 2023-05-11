@@ -1,9 +1,15 @@
 <script>
 import Photo from '../singleComponents/photo.vue';
+import {store} from '../../data/store';
 export default {
   name:'culinary collection',
   components:{
     Photo,
+  },
+  data(){
+    return {
+      store,
+    }
   }
   
 }
@@ -20,7 +26,8 @@ export default {
 
       <div class="collection">
         <Photo class="photo"
-        v-for="photo in 8" />
+          v-for="(collection,index) in store.culinaryCollections" :key="index"
+          :imgUrl='collection.imgUrl' />
       </div>
 
 
@@ -57,6 +64,7 @@ export default {
 
       .photo{
         width: calc(85% / 4);
+        padding: 0px 20px;
         margin: 0px 5px 10px 5px;
         box-shadow: 0px 0px 10px rgb(121, 121, 121);
       }

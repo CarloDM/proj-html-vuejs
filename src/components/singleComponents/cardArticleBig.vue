@@ -51,7 +51,7 @@ export default {
 .card-article{
   width: 100%;
   background-color: white;
-
+  padding-bottom: 20px;
   img, .photo{
     width: 100%;
   }

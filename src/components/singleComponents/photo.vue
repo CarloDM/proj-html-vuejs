@@ -24,7 +24,7 @@ export default {
 .photo{
   width: 100%;
   flex-direction: column;
-  background-image: linear-gradient($black,$avada_orange);
+
   img{
     transition: all 0.2s ease;
     width: 100%;
@@ -35,14 +35,18 @@ export default {
     position: absolute;
     opacity: 0;
   }
+  .link{
+    transform: translateY(-100%);
+  }
   .title{
     text-align: center;
     font-size: 0.6rem;
     max-width: 200px;
-    transform: translateY(100%);
+    transform: translateY(50%);
   }
 
   &:hover{
+    background-image: linear-gradient($black,$avada_orange);
     img{
       opacity: 0.1;
     }
