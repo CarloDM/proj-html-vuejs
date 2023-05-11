@@ -1,6 +1,10 @@
 <script>
+import Photo from './photo.vue';
 export default {
   name:'cardArticle',
+    components:{
+      Photo,
+  },
   props:{
     title: String,
     author: String,
@@ -16,8 +20,8 @@ export default {
 <template>
   <div class="card-article ">
 
-    <img :src=img alt="">
-
+    <!-- <img :src=img alt=""> -->
+    <Photo class="photo" :imgUrl=img />
     <div class="title">
 
         <h3>{{ title }}</h3>
@@ -48,7 +52,7 @@ export default {
   width: 100%;
   background-color: white;
 
-  img{
+  img, .photo{
     width: 100%;
   }
 

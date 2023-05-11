@@ -1,4 +1,5 @@
 <script>
+import Photo from'./photo.vue';
 export default {
   name:'cardArticle',
   props:{
@@ -6,6 +7,9 @@ export default {
     author: String,
     date: String,
     img: String,
+  },
+  components:{
+    Photo,
   }
 }
 </script>
@@ -13,7 +17,8 @@ export default {
 <template>
   <div class="card-article">
 
-    <img :src=img alt="">
+    <!-- <img :src=img alt=""> -->
+    <Photo class="photo" :imgUrl=img />
 
     <a href="#" class="title flex_center clr_black ">
         <h3>{{title}}</h3>

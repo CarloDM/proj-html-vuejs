@@ -39,8 +39,9 @@ export default {
         </div>
 
         <div class="col photos ">
-          <Photo v-for="phot in 8"
-           class="photo"/>
+          <Photo class="photo"
+          v-for="(photo,index) in 8" :key="index"
+          :imgUrl='store.articles[1].imgUrl' />
         </div>
       </div>
 
