@@ -15,7 +15,7 @@ export default {
       <FooterTop class="top"></FooterTop>    
     </div>
 
-    <div class="bottom flex_center bg_light">
+    <div class="bottom flex_center debug">
       <p>copyright 2012, Lorem ipsum dolor sit amet.</p>
     </div>
   </footer>

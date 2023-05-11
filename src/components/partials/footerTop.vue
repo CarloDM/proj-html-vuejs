@@ -5,11 +5,11 @@ export default {
 </script>
 
 <template>
-  <div id="footer-top" class="">
+  <div id="footer-top" class="debug2">
     
-    <div class="col ">
+    <div class="col debug">
 
-      <div class="logo ">
+      <div class="logo debug">
         <img src="../../assets/img/avada/avada-food-logo-mob-2x.png" alt="">
       </div>
 
@@ -22,13 +22,13 @@ export default {
       
     </div>
 
-    <div class="col info">
+    <div class="col info debug">
       <ul>
         <li v-for="link in 5"><a href="#">Recipes</a></li>
       </ul>
     </div>
 
-    <div class="col contact ">
+    <div class="col contact debug">
       <h4>contact</h4>
       <ul>
         <li><i class="fa-solid fa-location-dot"></i> addres</li>
@@ -37,9 +37,9 @@ export default {
       </ul>
     </div>
 
-    <div class="col get-our-app ">
+    <div class="col get-our-app debug">
       <h4>get our app!</h4>
-      <a class="" href="#">
+      <a class="debug" href="#">
         <img src="../../assets/img/download-android.png" alt="">
       </a>
       <a href="#">

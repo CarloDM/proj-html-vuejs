@@ -9,11 +9,16 @@ export default {
 </script>
 
 <template>
+<<<<<<< HEAD
   <div class="FoodieJournal">
     <div class="my_container b_radius_3">
+=======
+  <div class="FoodieJournal debug">
+    <div class="my_container debug">
+>>>>>>> parent of e604a6d (colors)
 
       <h3>FOODIE JOURNAL</h3>
-      <div class="flex_center">
+      <div class="flex_center debug2">
   
         <Card class="card" v-for="card in 3"
         :title="'food corner: top japan and other txt for long'"
@@ -34,8 +39,7 @@ export default {
     margin-top: -40px;
     padding-bottom: 20px;
     background-color: white;
-    // senza border si ridimensiona????
-    border: 1px solid rgba(0, 0, 0, 0);
+
     h3{
       font-family: 'Nunito';
       margin: 14px;

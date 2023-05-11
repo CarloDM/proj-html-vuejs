@@ -7,10 +7,15 @@ export default {
 
 <template>
   <div class="jumbotron">
-    <div class="my_container">
+    <div class="my_container debug">
 
+<<<<<<< HEAD
       <div class="card bg_white b_radius_5">
         <span class="top bg_avada">TODAY'S PICK</span>
+=======
+      <div class="card debug2">
+        <span class="top debug2">TODAY'S PICK</span>
+>>>>>>> parent of e604a6d (colors)
         <h1>Food Corner: Top Japanese resturant for sushi</h1>
         <span class="date">March, 25, 2019</span>
       </div>

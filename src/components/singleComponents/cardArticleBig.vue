@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div class="card-article ">
+  <div class="card-article debug2">
 
     <div class="hover_img">
       <a href="#">link</a>

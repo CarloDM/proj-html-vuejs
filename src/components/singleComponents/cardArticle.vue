@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <div class="card-article bg_white">
+  <div class="card-article debug2">
 
     <div class="hover_img debug">
       <a href="#">link</a>

@@ -11,14 +11,14 @@ export default {
 
     <section class="top ">
 
-      <div class="view flex_center ">
+      <div class="view flex_center debug">
         <h2>view our latest recipes</h2>
       </div>
 
-      <div class="guide ">
+      <div class="guide debug">
         <span class="debug2">city guide: Singapore</span>
         <img src="../../assets/img/avada/singapore-featured-image-1200x790.jpg" alt="">
-        <a class="" href="#">
+        <a class="debug" href="#">
           <i class="fa-solid fa-earth-americas"></i>
           view all city guides
         </a>
@@ -26,7 +26,7 @@ export default {
 
     </section>
 
-    <section class="bottom ">
+    <section class="bottom debug">
 
       <input class="search-bar " type="text">
 

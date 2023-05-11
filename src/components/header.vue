@@ -16,11 +16,11 @@ export default {
   <header>
     <div class="my_container">
 
-      <headerTop class=""/>
+      <headerTop class="debug"/>
 
-      <div class="logo "><Logo/></div>
+      <div class="logo debug"><Logo/></div>
 
-      <headerNav class=""/>
+      <headerNav class="debug"/>
 
     </div>
   </header>
