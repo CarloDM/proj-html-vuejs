@@ -1,10 +1,16 @@
 <script>
-import Card from '../singleComponents/cardArticle.vue'
+import Card from '../singleComponents/cardArticle.vue';
+import {store} from '../../data/store';
 export default {
   name:'FoodieJournal',
   components:{
     Card,
-  }
+  },
+  data(){
+    return{
+      store,
+    }
+  },
 }
 </script>
 
@@ -15,11 +21,12 @@ export default {
       <h3>FOODIE JOURNAL</h3>
       <div class="flex_center">
   
-        <Card class="card" v-for="card in 3"
-        :title="'food corner: top japan and other txt for long'"
-        :author="'pinco pallino'"
-        :date="'22 marzo 2019'"/>
-  
+        <Card class="card"
+        v-for="(card, index) in [store.articles[0],store.articles[1],store.articles[2]]" :key="index"
+        :title=    'card.title'
+        :author=   'card.author'
+        :date=     'card.date'
+        :img=      'card.imgUrl'/>
       </div>
     </div>
   </div>

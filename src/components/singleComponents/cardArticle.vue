@@ -11,14 +11,14 @@ export default {
 </script>
 
 <template>
-  <div class="card-article debug2">
+  <div class="card-article">
 
-    <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
+    <img :src=img alt="">
 
-    <div class="title flex_center debug2">
+    <a href="#" class="title flex_center clr_black ">
         <h3>{{title}}</h3>
         <p>by {{ author + date  }}</p>
-    </div>
+    </a>
 
   </div>
 </template>
@@ -34,7 +34,7 @@ export default {
   }
   .title{
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 2px auto;
     font-size: 0.6rem;
     margin-bottom: 5px;

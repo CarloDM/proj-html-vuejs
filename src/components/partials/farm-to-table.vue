@@ -2,12 +2,18 @@
 import CardArticle from '../singleComponents/cardArticleBig.vue';
 import Card from '../singleComponents/cardArticle.vue';
 import RBAr from '../partials/farm-to-table-RBar.vue';
+import {store} from '../../data/store';
 export default {
   name:'farm to table',
   components:{
     CardArticle,
     Card,
     RBAr,
+  },
+  data(){
+    return{
+      store,
+    }
   }
 }
 </script>
@@ -27,15 +33,24 @@ export default {
 
     <div class="container">
       <div class="col big ">
-        <CardArticle class="card-article"
 
-        :paragraph="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos non expedita minima fugiat culpa, eveniet consequuntur quod natus voluptatibus enim porro ab repellendus aspernatur, .'"/>
+        <CardArticle class="card-article"
+          :title=    'store.articles[1].title'
+          :author=   'store.articles[1].author'
+          :date=     'store.articles[1].date'
+          :img=      'store.articles[1].imgUrl'
+          :paragraph="store.articles[1].paragraph"
+          :answers=  "store.articles[1].answers.length"
+          :type="1"
+          />
 
         <div class="container ">
-          <Card v-for="art in 6"
-          class="card"
-          :title="'test title test title test titletest title'"
-          :author="'pinco pallino'"
+          <Card class="card" 
+          v-for="(card, index) in store.articles" :key="index"
+          :title=    'store.articles[index].title'
+          :author=   'store.articles[index].author'
+          :date=     'store.articles[index].date'
+          :img=      'store.articles[index].imgUrl'
           />
           <button>LOAD MORE POST</button>
         </div>

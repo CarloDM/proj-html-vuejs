@@ -1,7 +1,7 @@
 <script>
 import CardArticle from '../singleComponents/cardArticleBig.vue';
 import Photo from '../singleComponents/photo.vue';
-import {store} from '../../data/store'
+import {store} from '../../data/store';
 export default {
   name:'popularRecipes',
   components:{
@@ -28,12 +28,12 @@ export default {
       <div class="container">
         <div class="col">
           <CardArticle
-          :title=    'store.articles[0].title'
-          :author=   'store.articles[0].author'
-          :date=     'store.articles[0].date'
-          :img=      'store.articles[0].imgUrl'
-          :paragraph="store.articles[0].paragraph"
-          :answers=  "store.articles[0].answers.length"
+          :title=    'store.articles[2].title'
+          :author=   'store.articles[2].author'
+          :date=     'store.articles[2].date'
+          :img=      'store.articles[2].imgUrl'
+          :paragraph="store.articles[2].paragraph"
+          :answers=  "store.articles[2].answers.length"
           :type="0"
           />
         </div>

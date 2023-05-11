@@ -30,5 +30,37 @@ export const store = reactive ({
     paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
     answers:[]
   },
+    {
+    title: 'Rounddup: My Favorite Recipes For Healthy Living',
+    author:'Bob',
+    date:'April, 20, 2019',
+    imgUrl:'/src/assets/img/food/fi-roundup-1200x790.jpg',
+    paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
+    answers:[]
+  },
+    {
+    title: 'Rounddup: My Favorite Recipes For Healthy Living',
+    author:'Bob',
+    date:'April, 20, 2019',
+    imgUrl:'/src/assets/img/food/fi-roundup-1200x790.jpg',
+    paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
+    answers:[]
+  },
+    {
+    title: 'Rounddup: My Favorite Recipes For Healthy Living',
+    author:'Bob',
+    date:'April, 20, 2019',
+    imgUrl:'/src/assets/img/food/fi-roundup-1200x790.jpg',
+    paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
+    answers:[]
+  },
+    {
+    title: 'Rounddup: My Favorite Recipes For Healthy Living',
+    author:'Bob',
+    date:'April, 20, 2019',
+    imgUrl:'/src/assets/img/food/fi-roundup-1200x790.jpg',
+    paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
+    answers:[]
+  },
 ]
 })
