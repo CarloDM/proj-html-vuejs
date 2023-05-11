@@ -6,7 +6,6 @@ export default {
 </script>
 
 <template>
-<<<<<<< HEAD
   <div class="cta_subscribe bg_subscribe bg_white">
     <div class="my_container">
       

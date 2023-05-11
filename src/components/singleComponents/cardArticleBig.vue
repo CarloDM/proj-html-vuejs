@@ -14,11 +14,7 @@ export default {
 <template>
   <div class="card-article debug2">
 
-    <div class="hover_img">
-      <a href="#">link</a>
-      <h4>{{title}}</h4>
-      <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
-    </div>
+    <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
 
     <div class="title debug2">
 
@@ -42,7 +38,6 @@ export default {
 .card-article{
   width: 100%;
   background-color: white;
-  aspect-ratio: 1.51/1 ;
 
   img{
     width: 100%;

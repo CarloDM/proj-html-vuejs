@@ -10,7 +10,11 @@ export default {
     <div class="my_container debug">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div class="card bg_white b_radius_5">
+=======
+      <div class="card bg_white">
+>>>>>>> parent of 6f9d2e6 (revert)
         <span class="top bg_avada">TODAY'S PICK</span>
 =======
       <div class="card debug2">

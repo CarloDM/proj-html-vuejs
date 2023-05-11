@@ -11,11 +11,15 @@ export default {
 <template>
 <<<<<<< HEAD
   <div class="FoodieJournal">
+<<<<<<< HEAD
     <div class="my_container b_radius_3">
 =======
   <div class="FoodieJournal debug">
     <div class="my_container debug">
 >>>>>>> parent of e604a6d (colors)
+=======
+    <div class="my_container">
+>>>>>>> parent of 6f9d2e6 (revert)
 
       <h3>FOODIE JOURNAL</h3>
       <div class="flex_center debug2">

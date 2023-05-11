@@ -6,27 +6,16 @@ export default {
     author: String,
     date: String,
     img: String,
-  },
-  methods:{
-    saluta(){
-      console.log('ciao')
-
-    }
   }
-  
 }
 </script>
 
 <template>
   <div class="card-article debug2">
 
-    <div class="hover_img debug">
-      <a href="#">link</a>
-      <h4>{{title}}</h4>
-      <img  src="../../assets/img/single-post-img3-400x263.jpg" alt="">
-    </div>
+    <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
 
-    <div class="title flex_center debug2 ">
+    <div class="title flex_center debug2">
         <h3>{{title}}</h3>
         <p>by {{ author + date  }}</p>
     </div>
@@ -38,11 +27,10 @@ export default {
 .card-article{
   // width: 220px;
   // width: 100%;
-  // height: 145px;
-  aspect-ratio: 1.51/1 ;
+  // height: 200px;
+
   img{
     width: 100%;
-    height: 100%;
   }
   .title{
     flex-direction: column;
