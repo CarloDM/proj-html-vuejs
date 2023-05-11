@@ -7,28 +7,37 @@ export default {
     date: String,
     img: String,
     paragraph: String,
+    answers: Number,
+    type: Number,
   }
 }
 </script>
 
 <template>
-  <div class="card-article debug2">
+  <div class="card-article ">
 
-    <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
+    <img :src=img alt="">
 
-    <div class="title debug2">
+    <div class="title">
 
-        <h3>title{{title}}</h3>
-        <p>by {{ author + date  }}</p>
+        <h3>{{title }}</h3>
+        <p>by {{ author + date }}</p>
 
     </div>
 
-    <div class="paragraph debug">
+    <div class="paragraph ">
       <p>{{ paragraph }}</p>
     </div>
 
-    <div class="more">
+    <div v-if="type === 0"
+      class="more bg_avada">
       <a href="#">LEARN MORE</a>
+    </div>
+
+    <div v-if="type === 1"
+      class=" read-more flex_between">
+      <a href="#">read more ></a>
+      <a href="#"><i class="fa-regular fa-message"></i>{{ answers }} </a>
     </div>
 
   </div>
@@ -56,11 +65,11 @@ export default {
     &:after{
       content: '';
       width: 100%;
-      margin: 4px 0px;
-      border-top: 1px solid black;
+      margin: 10px 0px;
+      border-top: 1px solid rgb(223, 223, 223);
     }
   }
-  .paragraph, .more{
+  .paragraph, .more, .read-more{
     width: 90%;
     margin: 0 auto;
   }
@@ -76,11 +85,13 @@ export default {
     margin-bottom: 10px;
     font-size: 0.50rem;
     font-weight: 900;
-    border: 1px solid black;
-
     a{
       color: white;
     }
+  }
+  .read-more{
+    font-family:'nunito' ;
+    font-size: 0.65rem;
   }
 }
 

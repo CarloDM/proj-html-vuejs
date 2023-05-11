@@ -14,6 +14,7 @@ export default {
 
   methods:{},
   mounted(){
+    console.log('articolo test', store.article)
   }
 }
 </script>
