@@ -6,14 +6,9 @@ export default {
 </script>
 
 <template>
-  <div class="cta_subscribe bg_subscribe bg_white">
+  <div class="cta_subscribe bg_subscribe">
     <div class="my_container">
       
-=======
-  <div class="cta_subscribe">
-    <div class="my_container debug">
-
->>>>>>> parent of e604a6d (colors)
       <div class="container">
         <h2>Subscribe & receive</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quasi eveniet odit sunt. kjsadkjahsk jdhasdasda asdasd</p>
@@ -25,18 +20,19 @@ export default {
 
       </div>
     </div>  
-    <div class="foto_container debug2"></div>
   </div>
+  <div class="foto_container debug2"></div>
 </template>
 
 
 <style lang="scss"  scoped>
 
 .cta_subscribe{
-  background-image: url(../../assets/img/subscribe-sec-bg.png);
+  
   background-size: cover;
   font-family: 'Nunito';
   padding-top: 55px;
+  padding-bottom: 56px;
   .my_container{
 
     .container{
@@ -66,13 +62,13 @@ export default {
       }
     }
   }
+}
 
   .foto_container{
     width: 100%;
     height: 188px;
     min-height: 80px;
-    margin-top: 56px;
+
   }
-}
 
 </style>
