@@ -80,3 +80,73 @@ h3{
 .clr_black{
   color: $black;
 }
+
+.b_radius_3{
+  border-radius: 3px;
+}
+
+.b_radius_5{
+  border-radius: 5px;
+}
+
+.b_radius_10{
+  border-radius: 10px;
+}
+
+.hover_img{
+  a, h4{
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+// .hover_img{
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   img{
+//     opacity: 1;
+//     height: 100%;
+//     transform: translate(0px,  -20px);
+//   }
+//   a{
+//     opacity: 0;
+//     text-align: center;
+//     position: relative;
+//     display: block;
+//     color: white;
+//     background-color: grey;
+//     top: 40px;
+//     z-index: 999;
+//     width: 50%;
+//     margin: 0 auto;
+//   }
+//   h4{
+//     opacity: 0;
+//     text-align: center;
+//     display: block;
+//     position: absolute;
+//     color: white;
+//     width: 80%;
+//     top: 45%;
+//     left: 10%;
+//     font-size: 0.8rem;
+//     z-index: 998;
+//   }
+// }
+// .hover_img:hover{
+//   background-image: linear-gradient(black,$avada_orange);
+//   img{
+//     opacity: 0.1;
+//   }
+//   a{
+//     opacity: 1;
+//   }
+//   h4{
+//     opacity: 1;
+//   }
+// }

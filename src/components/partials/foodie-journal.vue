@@ -10,7 +10,7 @@ export default {
 
 <template>
   <div class="FoodieJournal">
-    <div class="my_container">
+    <div class="my_container b_radius_3">
 
       <h3>FOODIE JOURNAL</h3>
       <div class="flex_center">

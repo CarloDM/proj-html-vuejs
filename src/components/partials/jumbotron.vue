@@ -9,7 +9,7 @@ export default {
   <div class="jumbotron">
     <div class="my_container">
 
-      <div class="card bg_white">
+      <div class="card bg_white b_radius_5">
         <span class="top bg_avada">TODAY'S PICK</span>
         <h1>Food Corner: Top Japanese resturant for sushi</h1>
         <span class="date">March, 25, 2019</span>
