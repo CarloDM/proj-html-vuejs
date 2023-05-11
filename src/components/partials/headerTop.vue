@@ -8,12 +8,12 @@ export default {
 <template>
   <div id="header-top" class="flex_between">
 
-    <div class="left debug">
+    <div class="left ">
       <a href="#">download app</a>
       <a href="#">Advertise whit us</a>
     </div>
 
-    <div class="right debug">
+    <div class="right ">
       <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
       <a href="#"><i class="fa-brands fa-instagram"></i> </a>
       <a href="#"><i class="fa-brands fa-twitter"></i>   </a>

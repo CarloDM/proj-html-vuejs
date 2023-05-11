@@ -8,7 +8,7 @@ export default {
 <template>
   <div id="header-nav" class=" flex_center">
 
-    <ul class="flex_between debug">
+    <ul class="flex_between">
       <li>Home</li>
       <li>recipes</li>
       <li>Places</li>

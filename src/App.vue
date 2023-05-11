@@ -24,9 +24,9 @@ export default {
     <!-- <img class="reference" src="./assets/screenshot.png" alt=""> -->
 <!-- ---------------------- -->
 
-    <Header class="debug"/>
+    <Header class=""/>
     <Main/>
-    <Footer class="debug"/>
+    <Footer class=""/>
 
   </div>
 </template>

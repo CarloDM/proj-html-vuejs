@@ -11,7 +11,7 @@ export default {
 
 <template>
     <div class="culinary_collection">
-    <div class="my_container debug">
+    <div class="my_container">
 
       <div class="title">
         <h3>CULINARY COLLECTION</h3>

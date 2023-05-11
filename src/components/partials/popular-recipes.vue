@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div class="popular_recipes">
-    <div class="my_container debug">
+    <div class="my_container">
 
       <div class="title">
         <h3>POPULAR RECIPES</h3>
@@ -20,12 +20,12 @@ export default {
       </div>
 
       <div class="container">
-        <div class="col debug2">
+        <div class="col ">
           <CardArticle
           :paragraph="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos non expedita minima fugiat culpa, eveniet consequuntur quod natus voluptatibus enim porro ab repellendus aspernatur, sapiente dolore! Suscipit unde quod voluptas. Suscipit unde quod voluptas. Suscipit unde quod voluptas.'"/>
         </div>
 
-        <div class="col photos debug2">
+        <div class="col photos ">
           <Photo v-for="phot in 8"
            class="photo"/>
         </div>

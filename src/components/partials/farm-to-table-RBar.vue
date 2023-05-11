@@ -11,14 +11,14 @@ export default {
 
     <section class="top ">
 
-      <div class="view flex_center debug">
+      <div class="view flex_center ">
         <h2>view our latest recipes</h2>
       </div>
 
-      <div class="guide debug">
-        <span class="debug2">city guide: Singapore</span>
+      <div class="guide ">
+        <span class="">city guide: Singapore</span>
         <img src="../../assets/img/avada/singapore-featured-image-1200x790.jpg" alt="">
-        <a class="debug" href="#">
+        <a class="" href="#">
           <i class="fa-solid fa-earth-americas"></i>
           view all city guides
         </a>
@@ -26,11 +26,11 @@ export default {
 
     </section>
 
-    <section class="bottom debug">
+    <section class="bottom ">
 
       <input class="search-bar " type="text">
 
-      <div class="follow-us debug2">
+      <div class="follow-us ">
         <h4>follow us</h4>
         <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
         <a href="#"><i class="fa-brands fa-instagram"></i>  </a>
@@ -39,14 +39,14 @@ export default {
         <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
       </div>
 
-      <div class="select flex_center debug2">
+      <div class="select flex_center ">
         <span>popular</span>
         <span>recent</span>
       </div>
 
       <div class="posts">
 
-        <div class="post flex_center debug">
+        <div class="post flex_center ">
           <div class="logo"></div>
           <div class="title">
             <h5>veray long title tile tile tile vary long title</h5>
@@ -73,7 +73,7 @@ export default {
 
       </div>
 
-      <div class="tweet debug2">tweet</div>
+      <div class="tweet ">tweet</div>
     </section>
 
 
