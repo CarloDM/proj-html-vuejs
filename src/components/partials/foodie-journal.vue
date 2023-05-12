@@ -48,7 +48,9 @@ export default {
       margin: 14px;
     }
 
-    .flex_center
+    .flex_center{
+      align-items: flex-start;
+    }
     .card{
       padding: 0px 15px;
     }
