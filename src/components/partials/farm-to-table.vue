@@ -47,10 +47,10 @@ export default {
         <div class="container ">
           <Card class="card" 
           v-for="(card, index) in store.articles" :key="index"
-          :title=    'store.articles[index].title'
-          :author=   'store.articles[index].author'
-          :date=     'store.articles[index].date'
-          :img=      'store.articles[index].imgUrl'
+          :title=    'card.title'
+          :author=   'card.author'
+          :date=     'card.date'
+          :img=      'card.imgUrl'
           />
           <button>LOAD MORE POST</button>
         </div>

@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <div class="r-bar">
+  <div id="r-bar" class="r-bar">
 
     <section class="top ">
 

@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="photo flex_center">
+  <div id="photo" class="photo flex_center">
 
     <img :src=imgUrl alt="">
 

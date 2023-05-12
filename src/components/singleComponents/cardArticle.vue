@@ -15,14 +15,14 @@ export default {
 </script>
 
 <template>
-  <div class="card-article">
+  <div id="card-article" class="card-article">
 
     <!-- <img :src=img alt=""> -->
     <Photo class="photo" :imgUrl=img :title=title />
 
     <a href="#" class="title flex_center clr_black ">
         <h3>{{title}}</h3>
-        <p>by {{ author + date  }}</p>
+        <p>by {{ author + ' ' + date  }}</p>
     </a>
 
   </div>
@@ -30,10 +30,6 @@ export default {
 
 <style lang="scss" scoped>
 .card-article{
-  // width: 220px;
-  // width: 100%;
-  // height: 200px;
-
   img{
     width: 100%;
   }

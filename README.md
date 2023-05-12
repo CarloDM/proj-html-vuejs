@@ -10,4 +10,7 @@ layout & principle components:
 3. footer
 ------------------------------
 step 1: layout macroaree.
-step 2: layout dettagliato sezioni
+step 2: layout dettagliato sezioni.
+step 3: struttura dati.
+------------------------------
+

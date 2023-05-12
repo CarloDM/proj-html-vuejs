@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template> 
-<div class="container flex_center">
+<div id="logo" class="container flex_center">
   <img src="../../assets/img/avada/avada-food-logo-2x.png" alt="">
 </div>
   

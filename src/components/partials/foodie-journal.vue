@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="FoodieJournal">
+  <div id="FoodieJournal" class="FoodieJournal">
     <div class="my_container b_radius_3">
 
       <h3>FOODIE JOURNAL</h3>

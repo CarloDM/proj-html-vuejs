@@ -2,16 +2,6 @@ import {reactive} from 'vue';
 export const store = reactive ({
   testInfo:'test data',
 
-  article:{
-    title: 'japanese sushi',
-    author:'admin',
-    date:'March, 20, 2019',
-    imgUrl:'/src/assets/img/single-post-img3-400x263.jpg',
-    paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui?',
-    answers:[]
-  },
-
-
   // ------------------------------- all article array
   articles:[
     {
@@ -63,6 +53,7 @@ export const store = reactive ({
     answers:[]
   },
 ],
+
 culinaryCollections: [
 {
   title: 'dinner-recipes',

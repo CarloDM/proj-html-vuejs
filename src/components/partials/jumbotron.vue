@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-  <div class="jumbotron">
+  <div id="jumbotron" class="jumbotron">
     <div class="my_container">
 
       <div class="card bg_white b_radius_3">

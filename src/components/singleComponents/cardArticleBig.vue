@@ -18,14 +18,13 @@ export default {
 </script>
 
 <template>
-  <div class="card-article ">
+  <div id="card-article-big" class="card-article">
 
-    <!-- <img :src=img alt=""> -->
     <Photo class="photo" :imgUrl=img :title=title />
     <div class="title">
 
         <h3>{{ title }}</h3>
-        <p>by {{ author + date }}</p>
+        <p>by {{ author + ' ' + date }}</p>
 
     </div>
 

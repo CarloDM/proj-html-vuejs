@@ -6,12 +6,12 @@ export default {
 </script>
 
 <template>
-  <div class="cta_subscribe bg_subscribe bg_white">
+  <div id="cta_subscribe" class="cta_subscribe bg_subscribe bg_white">
     <div class="my_container">
       
       <div class="container">
         <h2>Subscribe & receive</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quasi eveniet odit sunt. kjsadkjahsk jdhasdasda asdasd</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quasi eveniet odit sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum?</p>
 
         <input type="text">
         <button>SUBSCRIBE</button>

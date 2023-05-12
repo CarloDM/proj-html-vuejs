@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div class="culinary_collection">
+    <div id="culinary_collection" class="culinary_collection">
     <div class="my_container">
 
       <div class="title">

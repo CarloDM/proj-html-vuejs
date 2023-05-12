@@ -35,7 +35,6 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .my_container{
   width: 62.5%;
   max-width: 1200px;
@@ -43,7 +42,6 @@ h3{
   min-height: 40px;
   margin: 0 auto;
 }
-
 .flex_center {
   display: flex;
   justify-content: center;
@@ -74,7 +72,6 @@ h3{
 .bg_grey{
   background-color: $grey
 }
-
 .bg_subscribe{
   background-image: url(/src/assets/img/avada/subscribe-sec-bg.png);
   background-size: cover;
@@ -88,15 +85,12 @@ h3{
 .clr_avada{
   color: $avada_orange;
 }
-
 .b_radius_3{
   border-radius: 3px;
 }
-
 .b_radius_5{
   border-radius: 5px;
 }
-
 .b_radius_10{
   border-radius: 10px;
 }

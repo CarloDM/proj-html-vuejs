@@ -14,7 +14,7 @@ export default {
 
   methods:{},
   mounted(){
-    console.log('articolo test', store.articles)
+    console.log('log test', store.articles)
   }
 }
 </script>
@@ -24,10 +24,9 @@ export default {
     <!-- reference -->
     <!-- <img class="reference" src="./assets/screenshot.png" alt=""> -->
 <!-- ---------------------- -->
-
-    <Header class=""/>
+    <Header />
     <Main/>
-    <Footer class=""/>
+    <Footer />
 
   </div>
 </template>
