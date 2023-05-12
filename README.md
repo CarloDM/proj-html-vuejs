@@ -34,6 +34,8 @@ Ad esempio: le collection potrebbero non esser altro che il filtraggio dell arra
 
 NON FINITO:
 
+- photo slider nel footer, sezione social in farm to table
+
 - CardArticle e CardArticleBig sono accorpabili in un unico componente sempre sfruttando prop type.
 
 - photo allo stesso modo andrebbe reso piu versatile.
