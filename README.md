@@ -28,7 +28,7 @@ CardArticle a sua volta importa la singola componente photo utile per l omnipres
 
 struttura dati: 
 l idea è che il sito composto prevalentemente da articoli disponga di un array principale contenente tutti gli oggetti articolo contenenti tutte le chiavi necessarie allo smistaggio nelle sezioni del main mediante funzioni di filtraggio secondo criteri specifici desiderati.
-Ad esempio, come le collection potrebbero non esser altro che il filtraggio dell array principale secondo la categoria dell' oggetto articolo.
+Ad esempio: le collection potrebbero non esser altro che il filtraggio dell array principale secondo la categoria dell' oggetto articolo.
 
 
 
