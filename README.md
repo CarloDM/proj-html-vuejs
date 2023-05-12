@@ -40,6 +40,8 @@ NON FINITO:
 
 - photo allo stesso modo andrebbe reso piu versatile.
 
+- tast load more post in farm to table
+
 - creazione di chiavi ( es: id, category) nell oggetto articolo più dettagliate per la gestione con funzioni
 
 - funzioni di filtraggio, funzioni per limitare la lunghezza della string pharagraph.
