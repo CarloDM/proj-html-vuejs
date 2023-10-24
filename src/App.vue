@@ -21,9 +21,7 @@ export default {
 
 <template>
   <div id="main_wrapper" class="bg_primary">
-    <!-- reference -->
-    <!-- <img class="reference" src="./assets/screenshot.png" alt=""> -->
-<!-- ---------------------- -->
+
     <Header />
     <Main/>
     <Footer />
@@ -33,13 +31,7 @@ export default {
 
 
 <style lang="scss" >
-@import './scss/main.scss';
 
-.reference{
-  // tenere browser a w 1131
-  width: 100%;
-  position: absolute;
-  opacity: 0.40;
-}
+@import './scss/main.scss';
 
 </style>

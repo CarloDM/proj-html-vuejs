@@ -31,9 +31,9 @@ export default {
     <div class="col contact ">
       <h4 class="clr_avada">contact</h4>
       <ul>
-        <li><i class="fa-solid fa-location-dot"></i> addres</li>
-        <li><i class="fa-solid fa-phone-flip"></i> telephone</li>
-        <li><i class="fa-solid fa-envelope"></i> email</li>
+        <li><a href=""><i class="fa-solid fa-location-dot"></i> addres</a></li>
+        <li><a href=""><i class="fa-solid fa-phone-flip"></i> telephone</a></li>
+        <li><a href=""><i class="fa-solid fa-envelope"></i> email</a></li>
       </ul>
     </div>
 

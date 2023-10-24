@@ -29,6 +29,11 @@ h3{
   font-size: 0.8rem;
 }
 
+header {
+  background-color: $white;
+  height: 150px;
+}
+
 #main_wrapper{
   width: 100%;
   background-image: url(../assets/screenshot.png);
@@ -42,6 +47,7 @@ h3{
   min-height: 40px;
   margin: 0 auto;
 }
+
 .flex_center {
   display: flex;
   justify-content: center;
@@ -52,7 +58,6 @@ h3{
   justify-content: space-between;
   align-items: center;
 }
-
 
 .bg_primary{
   background-color: $bg_light_grey;
@@ -93,6 +98,25 @@ h3{
 }
 .b_radius_10{
   border-radius: 10px;
+}
+
+.btn_avada{
+  color: white;
+  background-color: $avada_orange;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn_avada:active{
+  filter: saturate(10%);
+}
+
+.input_mail_avada{
+  height: 30px;
+  padding: 10px;
+  font-size: 0.7rem;
+  border: 1px solid $bg_light_grey2 ;
+  color:  $grey_mid;
 }
 
 

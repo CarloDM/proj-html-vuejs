@@ -13,12 +13,12 @@ export default {
 </script>
 
 <template>
-  <header>
-    <div class="my_container">
+  <header class="">
+    <div class="my_container ">
 
       <headerTop />
 
-      <div class="logo "><Logo/></div>
+      <div class="logo "> <Logo/> </div>
 
       <headerNav />
 

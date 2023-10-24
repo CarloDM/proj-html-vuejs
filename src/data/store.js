@@ -29,26 +29,42 @@ export const store = reactive ({
     answers:[]
   },
     {
-    title: 'Rounddup: My Favorite Recipes For Healthy Living',
+    title: 'Rounddup: korean food',
     author:'Bob',
     date:'April, 20, 2019',
-    imgUrl:'/src/assets/img/food/fi-roundup-1200x790.jpg',
+    imgUrl:'/src/assets/img/food/fi-korean-food-1200x790.jpg',
     paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
     answers:[]
   },
     {
-    title: 'Rounddup: My Favorite Recipes For Healthy Living',
+    title: 'Rounddup: organic breakfast',
     author:'Bob',
     date:'April, 20, 2019',
-    imgUrl:'/src/assets/img/food/fi-roundup-1200x790.jpg',
+    imgUrl:'/src/assets/img/food/fi-organic-breakfast-1200x790.jpg',
     paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
     answers:[]
   },
     {
-    title: 'Rounddup: My Favorite Recipes For Healthy Living',
+    title: 'street food',
     author:'Bob',
     date:'April, 20, 2019',
-    imgUrl:'/src/assets/img/food/fi-roundup-1200x790.jpg',
+    imgUrl:'/src/assets/img/food/fi-street-food-1200x790.jpg',
+    paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
+    answers:[]
+  },
+    {
+    title: 'toasts',
+    author:'Bob',
+    date:'April, 20, 2019',
+    imgUrl:'/src/assets/img/food/fi-toasts-1200x790.jpg',
+    paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
+    answers:[]
+  },
+    {
+    title: 'fi water side rest',
+    author:'Bob',
+    date:'April, 20, 2019',
+    imgUrl:'/src/assets/img/food/fi-water-side-rest-1200x790.jpg',
     paragraph:'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores facere iusto? Veniam recusandae officiis eveniet asperiores temporibus doloremque qui? asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?asperiores temporibus doloremque qui?',
     answers:[]
   },
@@ -56,35 +72,35 @@ export const store = reactive ({
 
 culinaryCollections: [
 {
-  title: 'dinner-recipes',
+  title: 'dinner',
   imgUrl:'/src/assets/img/avada/dinner-recipes.png'
 },
 {
-  title: 'healthy-recipes',
+  title: 'healthy',
   imgUrl:'/src/assets/img/avada/healthy-recipes.png'
 },
 {
-  title: 'premium-recipes',
+  title: 'premium',
   imgUrl:'/src/assets/img/avada/premium-recipes.png'
 },
 {
-  title: 'quick-easy-recipes',
+  title: 'quick-easy',
   imgUrl:'/src/assets/img/avada/quick-easy-recipes.png'
 },
 {
-  title: 'soups-recipes',
+  title: 'soups',
   imgUrl:'/src/assets/img/avada/soups-recipes.png'
 },
 {
-  title: 'staff-picks',
+  title: 'staff',
   imgUrl:'/src/assets/img/avada/staff-picks.png'
 },
 {
-  title: 'baking-recipes',
+  title: 'baking',
   imgUrl:'/src/assets/img/avada/baking-recipes.png'
 },
 {
-  title: 'drinks-recipes',
+  title: 'drinks',
   imgUrl:'/src/assets/img/avada/drinks-recipes.png'
 },
 ]

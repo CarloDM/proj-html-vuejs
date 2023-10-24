@@ -9,8 +9,8 @@ export default {
   <div id="jumbotron" class="jumbotron">
     <div class="my_container">
 
-      <div class="card bg_white b_radius_3">
-        <span class="top bg_avada">TODAY'S PICK</span>
+      <div class="card bg_white b_radius_5">
+        <span class="top bg_avada b_radius_3">TODAY'S PICK</span>
         <h1>Food Corner: Top Japanese resturant for sushi</h1>
         <span class="date">March, 25, 2019</span>
       </div>
@@ -18,7 +18,6 @@ export default {
     </div>
   </div>
 </template>
-
 
 <style lang="scss" scoped>
 
@@ -47,15 +46,16 @@ export default {
         text-align: center;
         transform: translateY(-27px);
 
-
         .top{
           font-family: 'Nunito';
-          font-size: 0.6rem;
-          font-weight: 900;
+          font-size: 0.55rem;
+          font-weight: 600;
+          color: white;
           display: inline-block;
           position: absolute;
           top: -14px;
-          padding: 5px 12px;
+          padding: 6px 14px;
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.46);
         }
 
         h1{

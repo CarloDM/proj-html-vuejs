@@ -10,7 +10,7 @@ export default {
 
     <ul class="flex_between">
       <li>Home</li>
-      <li>recipes</li>
+      <li>Recipes</li>
       <li>Places</li>
       <li>Blog</li>
       <li>About</li>
@@ -21,8 +21,8 @@ export default {
   </div> 
 </template>
 
-
 <style lang="scss" scoped>
+@use '../../scss/var.scss' as * ;
 
 #header-nav{
   width: 100%;
@@ -30,11 +30,29 @@ export default {
   margin-bottom: 6px;
   font-size: 0.6rem;
 
+
   ul{
     width: 60%;
 
     li{
+      cursor: pointer;
+      position: relative;
 
+      &:hover{
+        color: $avada_orange;
+
+        &::after{
+          content: "";
+          position: absolute;
+          bottom: -7px;
+          left: 5%;
+          height: 0px;
+          width: 90%;
+          background-color: $avada_orange;
+          border-radius: 5px;
+          border: 1px solid $avada_orange;
+        }
+      }
     }
   }
 }

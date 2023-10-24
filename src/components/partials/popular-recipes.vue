@@ -25,7 +25,7 @@ export default {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum ab reiciendis provident perspiciatis aliquid!</p>
       </div>
 
-      <div class="container">
+      <div class="container ">
         <div class="col">
           <CardArticle
           :title=    'store.articles[2].title'
@@ -38,10 +38,12 @@ export default {
           />
         </div>
 
-        <div class="col photos ">
+        <div class="col photos  ">
           <Photo class="photo"
-          v-for="(photo, index) in 8" :key="index"
-          :imgUrl='store.articles[1].imgUrl' />
+          v-for="(article, index) in store.articles" :key="index"
+          :imgUrl='article.imgUrl' 
+          :title="article.title"
+          />
         </div>
       </div>
 
@@ -84,9 +86,10 @@ export default {
         &.photos{
           display: flex;
           justify-content: space-between;
+          align-items: baseline;
           flex-wrap: wrap;
           .photo{
-            width: 48%;
+            width: 47%;
             margin: 2px;
           }
         }

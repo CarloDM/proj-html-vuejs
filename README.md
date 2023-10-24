@@ -45,3 +45,9 @@ NON FINITO:
 - creazione di chiavi ( es: id, category) nell oggetto articolo più dettagliate per la gestione con funzioni
 
 - funzioni di filtraggio, funzioni per limitare la lunghezza della string pharagraph.
+
+- rendere dinamici i menu! menu sempre dinamici
+
+
+considerazioni: 
+nella 3 giorni avrei voluto arrivare molto piu a fondo. penso di aver fatto l errore di non essermi prodotto classi generiche in anticipo o usare un bootstrap che mi avrebbe velocizzato di molto la stesura dello stile.

@@ -14,7 +14,8 @@ export default {
     <img :src=imgUrl alt="">
 
     <p class="link"><a class="clr_white" href="#">link</a></p>
-    <p class="title clr_white">{{title}}</p>
+    <p class="title clr_white ">{{title}}</p>
+    
   </div>
 </template>
 
@@ -24,7 +25,7 @@ export default {
 .photo{
   width: 100%;
   flex-direction: column;
-
+  overflow: hidden;
   img{
     transition: all 0.2s ease;
     width: 100%;
@@ -40,10 +41,12 @@ export default {
   }
   .title{
     text-align: center;
-    font-size: 0.6rem;
-    max-width: 200px;
+    font-size: 0.8rem;
+    max-width: 150px;
+    padding: 10px;
     transform: translateY(50%);
   }
+
 
   &:hover{
     background-image: linear-gradient($black,$avada_orange);
@@ -51,8 +54,26 @@ export default {
       opacity: 0.1;
     }
     .link,.title{
-      display: block;
+      display: inline-block;
       opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo{
+    .title{
+      font-size: 0.6rem;
+      max-width: 120px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .photo{
+    .title{
+      font-size: 0.4rem;
+      max-width: 100px;
     }
   }
 }

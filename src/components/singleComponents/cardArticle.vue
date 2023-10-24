@@ -17,7 +17,6 @@ export default {
 <template>
   <div id="card-article" class="card-article">
 
-    <!-- <img :src=img alt=""> -->
     <Photo class="photo" :imgUrl=img :title=title />
 
     <a href="#" class="title flex_center clr_black ">
@@ -32,6 +31,7 @@ export default {
 .card-article{
   img{
     width: 100%;
+    height: 100%;
   }
   .title{
     flex-direction: column;

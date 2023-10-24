@@ -10,18 +10,37 @@ export default {
     <div class="my_container">
       
       <div class="container">
-        <h2>Subscribe & receive</h2>
+
+        <h2 style="display: inline-block;"> Subscribe </h2> 
+        <h2 style="display: inline-block; margin: 0px 5px; color: rgb(252, 117, 35);"> & </h2> 
+        <h2 style="display: inline-block;"> receive a Free eBook </h2>
+
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quasi eveniet odit sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum?</p>
 
-        <input type="text">
-        <button>SUBSCRIBE</button>
+        <input class="input_mail_avada " type="text" placeholder="insert your email_*">
+        <button class="btn_avada">SUBSCRIBE</button>
 
         <p>Lorem ipsum dolor sit amet.</p>
 
       </div>
     </div>  
   </div>
-  <div class="foto_container debug2"></div>
+  <div class="photo_container ">
+
+    <div class="image ">
+      <img style="width: 100%;" src="../../assets/img/food/Yogurt-Nan-1200x790.jpg" alt="">
+    </div>
+    <div class="image ">
+      <img style="width: 100%;" src="../../assets/img/food/Mixed-fruits-1200x790.jpg" alt="">
+    </div>
+    <div class="image ">
+      <img style="width: 100%;" src="../../assets/img/food/r-rachel-park-366508-unsplash-min-1200x790.jpg" alt="">
+    </div>
+    <div class="image ">
+      <img style="width: 100%;" src="../../assets/img/food/r-michelle-tsang-500721-unsplash-min-1200x790.jpg" alt="">
+    </div>
+
+  </div>
 </template>
 
 
@@ -64,10 +83,15 @@ export default {
   }
 }
 
-  .foto_container{
+  .photo_container{
     width: 100%;
-    height: 188px;
+    height: 200px;
     min-height: 80px;
+    display: flex;
+
+    .image{
+      width: 25%;
+    }
 
   }
 

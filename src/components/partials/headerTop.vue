@@ -13,7 +13,7 @@ export default {
       <a href="#">Advertise whit us</a>
     </div>
 
-    <div class="right ">
+    <div class="right">
       <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
       <a href="#"><i class="fa-brands fa-instagram"></i> </a>
       <a href="#"><i class="fa-brands fa-twitter"></i>   </a>
@@ -25,6 +25,7 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../../scss/var.scss' as * ;
 
 #header-top{
   width: 100%;
@@ -32,7 +33,11 @@ export default {
   font-size: 0.6rem;
 
   a{
-    margin: 0 5px;
+    margin: 0 8px;
+
+    &:hover{
+      color: $avada_orange;
+    }
   }
 }
 

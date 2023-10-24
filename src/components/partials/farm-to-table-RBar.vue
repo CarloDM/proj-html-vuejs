@@ -49,7 +49,7 @@ export default {
         <div class="post flex_center ">
           <div class="logo"></div>
           <div class="title">
-            <h5>veray long title tile tile tile vary long title</h5>
+            <h5>veray long title vary long title </h5>
             <span>date</span>
           </div>
         </div>

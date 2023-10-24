@@ -1,10 +1,10 @@
 <script>
-import Photo from '../singleComponents/photo.vue';
+import CulinaryCard from '../singleComponents/culinaryCard.vue';
 import {store} from '../../data/store';
 export default {
   name:'culinary collection',
   components:{
-    Photo,
+    CulinaryCard,
   },
   data(){
     return {
@@ -25,9 +25,11 @@ export default {
       </div>
 
       <div class="collection">
-        <Photo class="photo"
+        <CulinaryCard class="cards"
           v-for="(collection,index) in store.culinaryCollections" :key="index"
-          :imgUrl='collection.imgUrl' />
+          :imgUrl='collection.imgUrl'
+          :title="collection.title"
+          />
       </div>
 
 
@@ -39,12 +41,12 @@ export default {
 <style lang="scss" scoped>
 
 .culinary_collection{
-
+      font-family: 'Nunito';
+      text-align: center;
   .my_container{
 
     .title{
-      font-family: 'Nunito';
-      text-align: center;
+
 
       h3{
         margin-bottom: 15px;
@@ -62,11 +64,9 @@ export default {
       justify-content: space-between;
       width: 100%;
 
-      .photo{
+      .cards{
         width: calc(85% / 4);
-        padding: 0px 20px;
-        margin: 0px 5px 10px 5px;
-        box-shadow: 0px 0px 10px rgb(121, 121, 121);
+
       }
     }
   }
